@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-year-up"
+    }
+  },
+  "defaultProject": "angular-year-up",
+  "cli": {
+    "analytics": "7777e43e-f7ec-41c7-906c-b8c51061808c"
+  }
 }
