@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OpportunityDivideComponent
   ],
   imports: [
     BrowserModule,
