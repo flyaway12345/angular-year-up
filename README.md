@@ -1,4 +1,4 @@
-##Git Flow
+# Git Flow
 
 1. NEVER PUSH TO MASTER(EVER)
 2. Make a new branch in your CLI
