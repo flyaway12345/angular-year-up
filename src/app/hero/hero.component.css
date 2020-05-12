@@ -1,0 +1,26 @@
+.jumbotronHeaderImg{
+  background-image: url("https://www.yearup.org/wp-content/uploads/2019/08/shot_02_0034-1200x500.jpg");
+  background-size: cover;
+  height: 600px;
+
+}
+.jumbotron{
+  text-align: center;
+  color: azure;
+  font-style: bold;
+  font-size: larger;
+  
+}
+.border{
+  color: azure;
+  background-color:rgb(19, 19, 138);
+  opacity: .85;
+  height: 238px;
+  
+  
+}
+
+.slick-slider {  
+  width: 90%;  
+  margin: auto;  
+} 

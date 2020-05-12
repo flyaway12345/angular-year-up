@@ -25,11 +25,15 @@
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/slick-carousel/slick/slick.scss",  
+              "node_modules/slick-carousel/slick/slick-theme.scss"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/jquery/dist/jquery.min.js",  
+              "node_modules/slick-carousel/slick/slick.min.js"  
             ]
           },
           "configurations": {
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-year-up"
+    }
+  },
+  "defaultProject": "angular-year-up",
+  "cli": {
+    "analytics": "16cfaabf-a897-468a-bbaa-74afe4a43a04"
+  }
 }

@@ -22,13 +22,15 @@
     "@angular/platform-browser": "~9.1.4",
     "@angular/platform-browser-dynamic": "~9.1.4",
     "@angular/router": "~9.1.4",
+    "bootscrap": "^0.1.0",
     "bootstrap": "^4.4.1",
     "jquery": "^3.5.1",
+    "ngx-slick-carousel": "^0.5.0",
     "rxjs": "~6.5.4",
+    "slick-carousel": "^1.8.1",
     "tslib": "^1.10.0",
     "typescript": "~3.8.3",
     "zone.js": "~0.10.2"
-    
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.4",
