@@ -3,10 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LogoComponent } from './img/logo/logo.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LogoComponent,
   ],
   imports: [
     BrowserModule,
