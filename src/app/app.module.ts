@@ -15,12 +15,12 @@ import { ImageSlidersComponent } from './image-sliders/image-sliders.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ImageSlidersComponent
+    ImageSlidersComponent,
     SocialMediaComponent,
     NavHeaderComponent,
     LogoComponent,
     OpportunityDivideComponent,
-    YearupSolutionComponent
+    YearupSolutionComponent,
   ],
   imports: [
     BrowserModule,
