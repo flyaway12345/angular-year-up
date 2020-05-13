@@ -10,6 +10,7 @@ import { LogoComponent } from './img/logo/logo.component';
 import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
 import { YearupSolutionComponent } from './yearup-solution/yearup-solution.component';
 import { ImageSlidersComponent } from './image-sliders/image-sliders.component';
+import { FooterComponent } from './footer/footer.component';
 import { HeroComponent } from './hero/hero.component';
 
 
@@ -22,6 +23,7 @@ import { HeroComponent } from './hero/hero.component';
     LogoComponent,
     OpportunityDivideComponent,
     YearupSolutionComponent,
+    FooterComponent,
     HeroComponent,
   ],
   imports: [
