@@ -9,11 +9,13 @@ import { NavHeaderComponent } from './nav-header/nav-header.component';
 import { LogoComponent } from './img/logo/logo.component';
 import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
 import { YearupSolutionComponent } from './yearup-solution/yearup-solution.component';
+import { ImageSlidersComponent } from './image-sliders/image-sliders.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    ImageSlidersComponent
     SocialMediaComponent,
     NavHeaderComponent,
     LogoComponent,
