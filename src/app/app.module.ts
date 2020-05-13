@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeroComponent } from './hero/hero.component';
 import { ANewPipelineOfTalentComponent } from './a-new-pipeline-of-talent/a-new-pipeline-of-talent.component';
 import { StudentBannerComponent } from './student-banner/student-banner.component';
+import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { StudentBannerComponent } from './student-banner/student-banner.componen
     FooterComponent,
     HeroComponent,
     ANewPipelineOfTalentComponent,
-    StudentBannerComponent
+    StudentBannerComponent,
+    BecomeAPartnerComponent
   ],
   imports: [
     BrowserModule,
