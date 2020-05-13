@@ -1,0 +1,13 @@
+h2 {
+    margin-top: 0;
+    font-size: 2em;
+    font-style: normal;
+    font-family: "Gotham 4r","Gotham A","Gotham B",arial,verdana,sans-serif;
+    font-weight: 200;
+}
+.btn-warning{
+    width:50%;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: white;
+}
