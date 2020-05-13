@@ -13,6 +13,7 @@ import { ImageSlidersComponent } from './image-sliders/image-sliders.component';
 import { WhatYearupOffersComponent } from './what-yearup-offers/what-yearup-offers.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeroComponent } from './hero/hero.component';
+import { StudentBannerComponent } from './student-banner/student-banner.component';
 
 
 
@@ -28,6 +29,7 @@ import { HeroComponent } from './hero/hero.component';
     WhatYearupOffersComponent,
     FooterComponent,
     HeroComponent,
+    StudentBannerComponent,
   ],
   imports: [
     BrowserModule,
