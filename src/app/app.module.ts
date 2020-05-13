@@ -10,6 +10,7 @@ import { LogoComponent } from './img/logo/logo.component';
 import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
 import { YearupSolutionComponent } from './yearup-solution/yearup-solution.component';
 import { ImageSlidersComponent } from './image-sliders/image-sliders.component';
+import { HeroComponent } from './hero/hero.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ImageSlidersComponent } from './image-sliders/image-sliders.component';
     LogoComponent,
     OpportunityDivideComponent,
     YearupSolutionComponent,
+    HeroComponent,
   ],
   imports: [
     BrowserModule,
