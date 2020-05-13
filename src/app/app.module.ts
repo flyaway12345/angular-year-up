@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { NavHeaderComponent } from './nav-header/nav-header.component';
+import { WCAPageComponent } from './wcapage/wcapage.component';
 import { LogoComponent } from './img/logo/logo.component';
 import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
 import { YearupSolutionComponent } from './yearup-solution/yearup-solution.component';
@@ -17,10 +18,11 @@ import { ANewPipelineOfTalentComponent } from './a-new-pipeline-of-talent/a-new-
 import { StudentBannerComponent } from './student-banner/student-banner.component';
 import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
+    NavHeaderComponent,
+    WCAPageComponent,
     ImageSlidersComponent,
     SocialMediaComponent,
     NavHeaderComponent,
