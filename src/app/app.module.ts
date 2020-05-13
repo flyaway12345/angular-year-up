@@ -11,6 +11,7 @@ import { OpportunityDivideComponent } from './opportunity-divide/opportunity-div
 import { YearupSolutionComponent } from './yearup-solution/yearup-solution.component';
 import { ImageSlidersComponent } from './image-sliders/image-sliders.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeroComponent } from './hero/hero.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { FooterComponent } from './footer/footer.component';
     OpportunityDivideComponent,
     YearupSolutionComponent,
     FooterComponent,
+    HeroComponent,
   ],
   imports: [
     BrowserModule,
