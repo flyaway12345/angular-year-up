@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: #f6f6f6;
+    font-family: 'Lora', serif;
+}
+
+.page-wrapper{
+    min-height: 100%;
+}
+
+.page-wrapper a:hover {
+    color: #006669;
+}
+
+
+.footer {
+    background: #3a43c4;
+    color: #d3d3d3;
+    height: 400px;
+    position: relative;
+}
+
+.footer .footer-content {
+   height: 350px; 
+   display: flex;
+}
+
+.footer .footer-content .footer-section{
+    flex: 1;
+    padding: 25px;
+    border: 1px solid white;
+}
+
+.footer .footer-content h1, .footer .footer-content h2 {
+    color: white
+
+}
+
+.footer .footer-content .about h1 span {
+    color: #005544;
+}
+
+.footer .footer-content .about .contact {
+    display: block;
+    font-size: 1.1cm;
+    margin-bottom: 8px;
+}
+
+.footer .footer-bottom {
+    background: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+
+a:link, a:visited {
+    background-color: #3a43c4;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    background-color: #4949c0;
+  }
