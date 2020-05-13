@@ -12,6 +12,7 @@ import { YearupSolutionComponent } from './yearup-solution/yearup-solution.compo
 import { ImageSlidersComponent } from './image-sliders/image-sliders.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeroComponent } from './hero/hero.component';
+import { ANewPipelineOfTalentComponent } from './a-new-pipeline-of-talent/a-new-pipeline-of-talent.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { HeroComponent } from './hero/hero.component';
     YearupSolutionComponent,
     FooterComponent,
     HeroComponent,
+    ANewPipelineOfTalentComponent,
   ],
   imports: [
     BrowserModule,
