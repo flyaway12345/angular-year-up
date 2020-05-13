@@ -1,8 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SocialMediaComponent } from './social-media/social-media.component';
 import { NavHeaderComponent } from './nav-header/nav-header.component';
 import { LogoComponent } from './img/logo/logo.component';
 import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
@@ -12,6 +14,7 @@ import { YearupSolutionComponent } from './yearup-solution/yearup-solution.compo
 @NgModule({
   declarations: [
     AppComponent,
+    SocialMediaComponent,
     NavHeaderComponent,
     LogoComponent,
     OpportunityDivideComponent,
@@ -19,7 +22,8 @@ import { YearupSolutionComponent } from './yearup-solution/yearup-solution.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
