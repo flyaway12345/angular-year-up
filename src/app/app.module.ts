@@ -17,7 +17,6 @@ import { ANewPipelineOfTalentComponent } from './a-new-pipeline-of-talent/a-new-
 import { StudentBannerComponent } from './student-banner/student-banner.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
