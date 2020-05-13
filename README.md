@@ -5,3 +5,6 @@
 3. When creating something new make a new component
 4. make sure app.component.html is empty before you push
 5. images need to be in /assets folder
+6. when done with a task go to trello and move your task to the pending approval card
+7. mark it complete(green)
+8.make a pull request on git hub
