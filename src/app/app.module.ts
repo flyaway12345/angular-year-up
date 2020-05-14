@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeadlinesComponent } from './headlines/headlines.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { NavHeaderComponent } from './nav-header/nav-header.component';
@@ -51,6 +52,7 @@ import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.com
     OurAwardsRoutingComponent,
     UpcomingEventsRoutingComponent,
     AllNewsRoutingComponent,
+    HeadlinesComponent,
     WhatYearupOffersComponent,
     FooterComponent,
     HeroComponent,
