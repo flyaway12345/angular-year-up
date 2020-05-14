@@ -11,6 +11,8 @@ import { AboutUSRouterComponent} from './about-us-router/about-us-router.compone
 import { StoriesNNewsRouterComponent} from './stories-nnews-router/stories-nnews-router.component';
 import { HomepageComponent } from './homepage/homepage.component';
 
+import { ApplyComponent } from '././apply/apply.component';
+
 
 const routes: Routes = [ 
   { path: 'opportunity-divide', component: NavBar1RoutingComponent },
@@ -22,7 +24,9 @@ const routes: Routes = [
   {path: 'upcoming-events', component:  UpcomingEventsRoutingComponent},
   {path: 'our-awards', component: OurAwardsRoutingComponent},
   {path: 'read-more', component: ReadMoreRoutingComponent},
-  {path: 'homepage', component: HomepageComponent}
+  {path: 'homepage', component: HomepageComponent},
+  { path: 'apply', component: ApplyComponent }
+
 ];
 
 @NgModule({
