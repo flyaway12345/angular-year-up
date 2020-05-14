@@ -9,6 +9,7 @@ import { AlumniRouterComponent} from './alumni-router/alumni-router.component';
 import { OurApproachRouterComponent} from './our-approach-router/our-approach-router.component';
 import { AboutUSRouterComponent} from './about-us-router/about-us-router.component';
 import { StoriesNNewsRouterComponent} from './stories-nnews-router/stories-nnews-router.component';
+import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
 
 
 const routes: Routes = [ 
