@@ -10,6 +10,7 @@ import { OurApproachRouterComponent} from './our-approach-router/our-approach-ro
 import { AboutUSRouterComponent} from './about-us-router/about-us-router.component';
 import { StoriesNNewsRouterComponent} from './stories-nnews-router/stories-nnews-router.component';
 import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
+import { SoiRoutingComponent } from './soi-routing/soi-routing.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ApplyComponent } from '././apply/apply.component';
 
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: '',
   redirectTo: "/homepage",
   pathMatch: 'full'},
-  { path: 'opportunity-divide', component: NavBar1RoutingComponent },
+  {path: 'opportunity-divide', component: OpportunityDivideComponent},
+  {path: 'soi-routing', component: SoiRoutingComponent },
   { path: 'alumni', component: AlumniRouterComponent},
   { path:'our-approach', component: OurApproachRouterComponent },
   { path: 'about-us', component: AboutUSRouterComponent },

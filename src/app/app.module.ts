@@ -28,6 +28,7 @@ import { ApplyComponent } from './apply/apply.component';
 import { ANewPipelineOfTalentComponent } from './a-new-pipeline-of-talent/a-new-pipeline-of-talent.component';
 import { StudentBannerComponent } from './student-banner/student-banner.component';
 import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.component';
+import { SoiRoutingComponent } from './soi-routing/soi-routing.component';
 import { HeaderComponent } from './header/header.component';
 import { HomepageComponent } from './homepage/homepage.component';
 
@@ -61,6 +62,7 @@ import { HomepageComponent } from './homepage/homepage.component';
     ANewPipelineOfTalentComponent,
     StudentBannerComponent,
     BecomeAPartnerComponent,
+    SoiRoutingComponent,
     HeaderComponent,
     HomepageComponent
   ],
