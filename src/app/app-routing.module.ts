@@ -13,6 +13,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 
 import { ApplyComponent } from '././apply/apply.component';
 
+import { WatchthevidComponent } from './watchthevid/watchthevid.component';
+
 
 const routes: Routes = [ 
   { path: 'opportunity-divide', component: NavBar1RoutingComponent },
@@ -25,7 +27,9 @@ const routes: Routes = [
   {path: 'our-awards', component: OurAwardsRoutingComponent},
   {path: 'read-more', component: ReadMoreRoutingComponent},
   {path: 'homepage', component: HomepageComponent},
-  { path: 'apply', component: ApplyComponent }
+  { path: 'apply', component: ApplyComponent },
+  { path: 'watchthevideo', component: WatchthevidComponent}
+  
 
 ];
 

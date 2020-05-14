@@ -29,6 +29,7 @@ import { ANewPipelineOfTalentComponent } from './a-new-pipeline-of-talent/a-new-
 import { StudentBannerComponent } from './student-banner/student-banner.component';
 import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { WatchthevidComponent } from './watchthevid/watchthevid.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     ANewPipelineOfTalentComponent,
     StudentBannerComponent,
     BecomeAPartnerComponent,
-    HomepageComponent
+    HomepageComponent,
+    WatchthevidComponent
   ],
   imports: [
     BrowserModule,
