@@ -10,3 +10,4 @@
 8. Mark it complete(green) on trello.
 9. Go to the github link to make a pull request.
 10. Make sure you leave a comma after your new import for your new component inside the app.module.ts.
+11. Remove any extra selectors from your components before pushing. For example: we don't want two footers or two navbars, so don't include a <app-footer> or <app-header>/<app-navbar> in your component. Don't use any other component selectors within your component.
