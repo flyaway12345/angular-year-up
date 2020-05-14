@@ -9,6 +9,10 @@ import { NavHeaderComponent } from './nav-header/nav-header.component';
 import { LogoComponent } from './img/logo/logo.component';
 import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
 import { YearupSolutionComponent } from './yearup-solution/yearup-solution.component';
+import { ReadMoreRoutingComponent } from './read-more-routing/read-more-routing.component';
+import { OurAwardsRoutingComponent } from './our-awards-routing/our-awards-routing.component';
+import { UpcomingEventsRoutingComponent } from './upcoming-events-routing/upcoming-events-routing.component';
+import { AllNewsRoutingComponent } from './all-news-routing/all-news-routing.component';
 
 
 @NgModule({
@@ -18,7 +22,11 @@ import { YearupSolutionComponent } from './yearup-solution/yearup-solution.compo
     NavHeaderComponent,
     LogoComponent,
     OpportunityDivideComponent,
-    YearupSolutionComponent
+    YearupSolutionComponent,
+    ReadMoreRoutingComponent,
+    OurAwardsRoutingComponent,
+    UpcomingEventsRoutingComponent,
+    AllNewsRoutingComponent,
   ],
   imports: [
     BrowserModule,
