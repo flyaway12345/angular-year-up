@@ -17,6 +17,7 @@ import { HeroComponent } from './hero/hero.component';
 import { ANewPipelineOfTalentComponent } from './a-new-pipeline-of-talent/a-new-pipeline-of-talent.component';
 import { StudentBannerComponent } from './student-banner/student-banner.component';
 import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.component';
+import { SoiRoutingComponent } from './soi-routing/soi-routing.component';
 
 
 @NgModule({
@@ -37,12 +38,14 @@ import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.com
     HeroComponent,
     ANewPipelineOfTalentComponent,
     StudentBannerComponent,
-    BecomeAPartnerComponent
+    BecomeAPartnerComponent,
+    SoiRoutingComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
