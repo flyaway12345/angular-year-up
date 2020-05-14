@@ -1,7 +1,32 @@
-#loading {
-	text-align:center;
-	width:100%;
-	clear:both;
-	font-size:1.875em;
-	color:#2d4e94;
+img{
+	max-height: 150px;
+	max-width: 200px;
+	width: 120px;
+	height: 120px;
+}
+
+#whats-new h4{
+	display: block;
+	margin-top: 0px;
+	width: 100%;
+	text-align: center;
+	color: #263776;
+}
+
+article .row > h4{
+
+	margin: 0;
+	padding: 1.5em 0;
+	text-align: center;
+	text-transform: uppercase;
+	
+	} 
+
+.freight.italic {
+	font-weight: 500;
+	font-style: italic;
+}
+
+h4{
+	font-size: 1.25em ;
 }
