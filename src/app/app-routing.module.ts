@@ -5,7 +5,7 @@ import { SoiRoutingComponent } from './soi-routing/soi-routing.component';
 
 const routes: Routes = [
   {path: 'opportunity-divide', component: OpportunityDivideComponent},
-  {path: 'for-employers', component: SoiRoutingComponent },
+  {path: 'soi-routing', component: SoiRoutingComponent },
 
 ];
 
