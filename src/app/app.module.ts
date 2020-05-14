@@ -2,12 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
 import { HeadlinesComponent } from './headlines/headlines.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-=======
-import { FontAwesomeModule } from '@fontawesome/angular-fontawesome';
->>>>>>> 299d88fbe5ac36aeafd1aacfa8527a477cbd7bac
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { NavHeaderComponent } from './nav-header/nav-header.component';
 import { WCAPageComponent } from './wcapage/wcapage.component';
@@ -56,9 +52,7 @@ import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.com
     OurAwardsRoutingComponent,
     UpcomingEventsRoutingComponent,
     AllNewsRoutingComponent,
-<<<<<<< HEAD
     HeadlinesComponent,
-=======
     WhatYearupOffersComponent,
     FooterComponent,
     HeroComponent,
@@ -66,7 +60,6 @@ import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.com
     StudentBannerComponent,
     BecomeAPartnerComponent
 
->>>>>>> 299d88fbe5ac36aeafd1aacfa8527a477cbd7bac
   ],
   imports: [
     BrowserModule,
