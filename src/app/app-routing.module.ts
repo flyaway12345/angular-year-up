@@ -9,6 +9,7 @@ import { AlumniRouterComponent} from './alumni-router/alumni-router.component';
 import { OurApproachRouterComponent} from './our-approach-router/our-approach-router.component';
 import { AboutUSRouterComponent} from './about-us-router/about-us-router.component';
 import { StoriesNNewsRouterComponent} from './stories-nnews-router/stories-nnews-router.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 const routes: Routes = [ 
@@ -21,7 +22,7 @@ const routes: Routes = [
   {path: 'upcoming-events', component:  UpcomingEventsRoutingComponent},
   {path: 'our-awards', component: OurAwardsRoutingComponent},
   {path: 'read-more', component: ReadMoreRoutingComponent},
-   {path: 'opportunity-divide', component: OpportunityDivideComponent}
+  {path: 'homepage', component: HomepageComponent}
 ];
 
 @NgModule({
