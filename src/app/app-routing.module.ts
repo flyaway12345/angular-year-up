@@ -10,6 +10,8 @@ import { OurApproachRouterComponent} from './our-approach-router/our-approach-ro
 import { AboutUSRouterComponent} from './about-us-router/about-us-router.component';
 import { StoriesNNewsRouterComponent} from './stories-nnews-router/stories-nnews-router.component';
 import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { ApplyComponent } from '././apply/apply.component';
 
 
 const routes: Routes = [ 
@@ -22,7 +24,9 @@ const routes: Routes = [
   {path: 'upcoming-events', component:  UpcomingEventsRoutingComponent},
   {path: 'our-awards', component: OurAwardsRoutingComponent},
   {path: 'read-more', component: ReadMoreRoutingComponent},
-   {path: 'opportunity-divide', component: OpportunityDivideComponent}
+  {path: 'homepage', component: HomepageComponent},
+  { path: 'apply', component: ApplyComponent }
+
 ];
 
 @NgModule({
