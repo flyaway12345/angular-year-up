@@ -30,6 +30,7 @@ import { StudentBannerComponent } from './student-banner/student-banner.componen
 import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.component';
 import { HeaderComponent } from './header/header.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { FooterRouterComponent } from './footer-router/footer-router.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     StudentBannerComponent,
     BecomeAPartnerComponent,
     HeaderComponent,
-    HomepageComponent
+    HomepageComponent,
+    FooterRouterComponent
   ],
   imports: [
     BrowserModule,
