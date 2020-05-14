@@ -27,6 +27,7 @@ import { HeroComponent } from './hero/hero.component';
 import { ANewPipelineOfTalentComponent } from './a-new-pipeline-of-talent/a-new-pipeline-of-talent.component';
 import { StudentBannerComponent } from './student-banner/student-banner.component';
 import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -40,9 +41,7 @@ import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.com
     OurApproachRouterComponent,
     ImageSlidersComponent,
     HowToApplyComponent,
-    NavHeaderCoSlidermponent,
     WCAPageComponent,
-    ImagesComponent,
     SocialMediaComponent,
     NavHeaderComponent,
     LogoComponent,
@@ -58,13 +57,14 @@ import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.com
     HeroComponent,
     ANewPipelineOfTalentComponent,
     StudentBannerComponent,
-    BecomeAPartnerComponent
+    BecomeAPartnerComponent,
+    HomepageComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
