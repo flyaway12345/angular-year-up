@@ -14,6 +14,7 @@ import { StoriesNNewsRouterComponent } from './stories-nnews-router/stories-nnew
 import { OurApproachRouterComponent } from './our-approach-router/our-approach-router.component';
 import { LogoComponent } from './img/logo/logo.component';
 import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
+import { HomeNavComponent } from './home-nav/home-nav.component';
 import { YearupSolutionComponent } from './yearup-solution/yearup-solution.component';
 import { ReadMoreRoutingComponent } from './read-more-routing/read-more-routing.component';
 import { OurAwardsRoutingComponent } from './our-awards-routing/our-awards-routing.component';
@@ -36,6 +37,8 @@ import { FooterRouterComponent } from './footer-router/footer-router.component';
 @NgModule({
   declarations: [
     AppComponent,
+    OpportunityDivideComponent,
+    HomeNavComponent,
     NavHeaderComponent,
     WCAPageComponent,
     NavBar1RoutingComponent,
