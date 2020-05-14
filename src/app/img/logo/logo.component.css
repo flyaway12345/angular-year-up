@@ -3,4 +3,9 @@
     display: block;
     float: left;
     line-height: 16px;
+    
+}
+img{
+    width: auto;
+    height: 100px;
 }
