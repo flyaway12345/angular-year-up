@@ -13,6 +13,8 @@ import { OpportunityDivideComponent } from './opportunity-divide/opportunity-div
 import { SoiRoutingComponent } from './soi-routing/soi-routing.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ApplyComponent } from '././apply/apply.component';
+import { FooterComponent } from './footer/footer.component';
+import {FooterRouterComponent} from './footer-router/footer-router.component'; 
 
 
 const routes: Routes = [ 
@@ -25,12 +27,15 @@ const routes: Routes = [
   { path:'our-approach', component: OurApproachRouterComponent },
   { path: 'about-us', component: AboutUSRouterComponent },
   { path: 'stories-and-news', component: StoriesNNewsRouterComponent },
-  {path: 'all-news', component: AllNewsRoutingComponent},
-  {path: 'upcoming-events', component:  UpcomingEventsRoutingComponent},
-  {path: 'our-awards', component: OurAwardsRoutingComponent},
-  {path: 'read-more', component: ReadMoreRoutingComponent},
-  {path: 'homepage', component: HomepageComponent},
-  { path: 'apply', component: ApplyComponent }
+  { path: 'all-news', component: AllNewsRoutingComponent},
+  { path: 'upcoming-events', component:  UpcomingEventsRoutingComponent},
+  { path: 'our-awards', component: OurAwardsRoutingComponent},
+  { path: 'read-more', component: ReadMoreRoutingComponent},
+  { path: 'homepage', component: HomepageComponent},
+  { path: 'apply', component: ApplyComponent },
+  { path: 'footer-router', component: FooterComponent},
+  { path: 'footer-link', component: FooterRouterComponent}
+  
 
 ];
 
