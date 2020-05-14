@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+<<<<<<< HEAD
 import { NavBar1RoutingComponent } from './nav-bar1-routing/nav-bar1-routing.component';
 import { AlumniRouterComponent} from './alumni-router/alumni-router.component';
 import { OurApproachRouterComponent} from './our-approach-router/our-approach-router.component';
@@ -13,6 +14,14 @@ const routes: Routes = [
   { path: 'about-us', component: AboutUSRouterComponent },
   { path: 'stories-and-news', component: StoriesNNewsRouterComponent },
   
+=======
+import { OpportunityDivideComponent } from './opportunity-divide/opportunity-divide.component';
+
+
+const routes: Routes = [
+  {path: 'opportunity-divide', component: OpportunityDivideComponent}
+
+>>>>>>> c6d2ba4108343f5a4f3938725bc15546915371b6
 ];
 
 @NgModule({
