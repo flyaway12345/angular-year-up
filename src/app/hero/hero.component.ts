@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ApplyComponent } from '../apply/apply.component';
 
 @Component({
   selector: 'app-hero',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  
+    constructor() { }
+  
+    ngOnInit() {
+    }
+  
   }
-
-}

@@ -12,6 +12,7 @@ import { YearupSolutionComponent } from './yearup-solution/yearup-solution.compo
 import { ImageSlidersComponent } from './image-sliders/image-sliders.component';
 import { HeroComponent } from './hero/hero.component';
 
+import { ApplyComponent } from './apply/apply.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +24,15 @@ import { HeroComponent } from './hero/hero.component';
     OpportunityDivideComponent,
     YearupSolutionComponent,
     HeroComponent,
+    ApplyComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [ApplyComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
