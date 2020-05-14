@@ -19,6 +19,8 @@ import { ApplyComponent } from '././apply/apply.component';
 import { FooterComponent } from './footer/footer.component';
 import {FooterRouterComponent} from './footer-router/footer-router.component'; 
 
+import { WatchthevidComponent } from './watchthevid/watchthevid.component';
+
 
 const routes: Routes = [ 
   {path: '',
@@ -30,6 +32,7 @@ const routes: Routes = [
   { path:'our-approach', component: OurApproachRouterComponent },
   { path: 'about-us', component: AboutUSRouterComponent },
   { path: 'stories-and-news', component: StoriesNNewsRouterComponent },
+  { path: 'watchthevideo', component: WatchthevidComponent},
   { path: 'all-news', component: AllNewsRoutingComponent},
   { path: 'upcoming-events', component:  UpcomingEventsRoutingComponent},
   { path: 'our-awards', component: OurAwardsRoutingComponent},
@@ -41,7 +44,7 @@ const routes: Routes = [
   { path: 'students', component: StudentsComponent},
   { path: 'corporate-partners', component: CorporatePartnersComponent},
   { path: 'volunteers' , component: VolunteersComponent}
-  
+
 ];
 
 @NgModule({

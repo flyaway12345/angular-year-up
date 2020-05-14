@@ -32,6 +32,7 @@ import { BecomeAPartnerComponent } from './become-a-partner/become-a-partner.com
 import { SoiRoutingComponent } from './soi-routing/soi-routing.component';
 import { HeaderComponent } from './header/header.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { WatchthevidComponent } from './watchthevid/watchthevid.component';
 import { FooterRouterComponent } from './footer-router/footer-router.component';
 
 @NgModule({
@@ -66,6 +67,7 @@ import { FooterRouterComponent } from './footer-router/footer-router.component';
     ANewPipelineOfTalentComponent,
     StudentBannerComponent,
     BecomeAPartnerComponent,
+    WatchthevidComponent,
     SoiRoutingComponent,
     HeaderComponent,
     HomepageComponent,
