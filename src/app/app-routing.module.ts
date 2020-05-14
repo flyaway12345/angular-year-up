@@ -15,6 +15,9 @@ import { ApplyComponent } from '././apply/apply.component';
 
 
 const routes: Routes = [ 
+  {path: '',
+  redirectTo: "/homepage",
+  pathMatch: 'full'},
   { path: 'opportunity-divide', component: NavBar1RoutingComponent },
   { path: 'alumni', component: AlumniRouterComponent},
   { path:'our-approach', component: OurApproachRouterComponent },
